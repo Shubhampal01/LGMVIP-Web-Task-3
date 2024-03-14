@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://pujacraft.com/cdn/shop/articles/Krishna-Janmashtami--2023-date1_64f79e1e5e4f8.jpg?v=1693982466");
+  background-size: cover;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.student-detail::-webkit-scrollbar{
+  display: none;
+}
+.student-detail{
+  border: 10px solid rgb(255, 255, 255,0.5);
+  border-radius: 10px;
+}
+
+input{
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+}
+.textarea{
+  width: 100%;
+}
+img{
+  width: 100%;
+  border-radius: 100%; 
+  object-fit: cover;
+  height: 100%;
 }
